@@ -210,7 +210,7 @@
 					<OnClick function="LongMacroFrameSaveButton_onClick"/>
 				</Scripts>
 			</Button>
-			<Frame name="LongMacroFrameTextBackground">
+			<Frame name="LongMacroFrameTextBackground" inherits="BackdropTemplate">
 				<Size x="322" y="95"/>
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="LongMacroFrame" x="6" y="-289"/>
